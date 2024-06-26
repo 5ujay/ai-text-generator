@@ -8,7 +8,7 @@ const TextGen = () => {
   const copyRef = useRef();
 
   const genAI = new GoogleGenerativeAI(
-    "AIzaSyC0stz_Buf4Y5PRbOwrlQDiE9SHpo_kRPo"
+    "your_api_key"
   );
 
   const genText = async () => {
